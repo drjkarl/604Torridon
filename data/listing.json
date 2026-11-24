@@ -12,7 +12,7 @@
     "bathsFull": 3,
     "bathsHalf": 1,
     "sqft": 3314,
-    "lotSize": "TODO - confirm (county GIS lists 0.000 acres, likely a data gap)",
+    "lotSize": "0.235 acres (10,251 sq ft)",
     "yearBuilt": 2018,
     "garage": "2.5-car garage",
     "stories": 2,
