@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>604 Torridon Lane, Simpsonville, SC — For Sale By Owner</title>
+  <meta name="description" content="604 Torridon Lane, Simpsonville, SC 29681 — For Sale By Owner, $580,000." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>604 Torridon Lane</h1>
+      <p class="subtitle">Simpsonville, SC 29681 &middot; Jones Mill Crossing</p>
+      <div class="header-meta">
+        <span class="price" id="price">$580,000</span>
+        <span class="badge">For Sale By Owner</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="gallery" class="section">
+      <h2>Photos</h2>
+      <div id="gallery-grid" class="gallery-grid" aria-live="polite">
+        <p class="muted">Loading photos&hellip;</p>
+      </div>
+    </section>
+
+    <section id="facts" class="section">
+      <h2>Property Details</h2>
+      <dl class="facts-grid" id="facts-grid"></dl>
+    </section>
+
+    <section id="terms" class="section callout">
+      <h2>Sale Terms</h2>
+      <ul>
+        <li>Asking price: <strong id="terms-price">$580,000</strong></li>
+        <li>Seller will pay standard attorney's fees at closing.</li>
+        <li>This is a For Sale By Owner listing — no buyer's agent/broker commission will be reimbursed.</li>
+      </ul>
+    </section>
+
+    <section id="description" class="section">
+      <h2>About This Home</h2>
+      <p id="description-text" class="muted">Loading&hellip;</p>
+      <ul id="features-list"></ul>
+    </section>
+
+    <section id="interest" class="section">
+      <h2>Interested? Get in touch</h2>
+      <form id="interest-form" novalidate>
+        <label for="name">Name <span class="required">*</span></label>
+        <input type="text" id="name" name="name" required maxlength="100" autocomplete="name" />
+
+        <label for="phone">Phone <span class="required">*</span></label>
+        <input type="tel" id="phone" name="phone" required maxlength="30" autocomplete="tel" />
+
+        <fieldset class="preference">
+          <legend>Preferred contact method <span class="required">*</span></legend>
+          <label class="radio"><input type="radio" name="preference" value="call" required /> Call</label>
+          <label class="radio"><input type="radio" name="preference" value="text" required /> Text</label>
+        </fieldset>
+
+        <button type="submit" id="submit-btn">Send</button>
+        <p id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>604 Torridon Lane, Simpsonville, SC 29681 &middot; For Sale By Owner</p>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox hidden" aria-hidden="true">
+    <button id="lightbox-close" aria-label="Close">&times;</button>
+    <img id="lightbox-img" src="" alt="" />
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

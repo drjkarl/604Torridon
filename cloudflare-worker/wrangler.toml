@@ -1,0 +1,10 @@
+name = "604torridon-interest-form"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://drjkarl.github.io"
+
+# Set the secrets (never committed) with:
+#   wrangler secret put TELEGRAM_BOT_TOKEN
+#   wrangler secret put TELEGRAM_CHAT_ID

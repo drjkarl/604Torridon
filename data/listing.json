@@ -1,0 +1,38 @@
+{
+  "address": {
+    "line1": "604 Torridon Lane",
+    "city": "Simpsonville",
+    "state": "SC",
+    "zip": "29681",
+    "subdivision": "Jones Mill Crossing"
+  },
+  "price": 580000,
+  "facts": {
+    "beds": "TODO - confirm",
+    "bathsFull": "TODO - confirm",
+    "bathsHalf": "TODO - confirm",
+    "sqft": "TODO - confirm",
+    "lotSize": "TODO - confirm",
+    "yearBuilt": "TODO - confirm",
+    "garage": "2.5-car garage",
+    "stories": "TODO - confirm",
+    "hoaAnnual": 900,
+    "parcelId": "TODO - confirm",
+    "annualPropertyTax": "TODO - confirm",
+    "schoolDistrict": "Greenville County Schools (TODO - confirm zoned schools)"
+  },
+  "terms": {
+    "listingType": "For Sale By Owner",
+    "sellerPaysClosingAttorneyFees": true,
+    "buyerAgentCommissionReimbursed": false,
+    "note": "Seller will pay standard attorney's fees at closing. Seller will not reimburse a buyer's agent/broker commission (this is a For Sale By Owner listing)."
+  },
+  "description": "TODO - write (or approve a draft of) the main listing description.",
+  "features": [
+    "TODO - add standout features (e.g. updated kitchen, fenced yard, community pool/amenities)"
+  ],
+  "contact": {
+    "preferredMethod": "Use the interest form below",
+    "callOrText": "Call or text options are collected directly on the form"
+  }
+}
