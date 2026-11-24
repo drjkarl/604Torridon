@@ -15,7 +15,7 @@
     "lotSize": "TODO - confirm (county GIS lists 0.000 acres, likely a data gap)",
     "yearBuilt": 2018,
     "garage": "2.5-car garage",
-    "stories": "TODO - confirm",
+    "stories": 2,
     "hoaAnnual": 900,
     "parcelId": "0555070101600 (Lot 61, Jones Mill Crossing Ph. 1)",
     "annualPropertyTax": "$8,548.52 at the current non-owner-occupied rate; an owner-occupant buyer can apply for SC's 4% owner-occupied assessment, which runs substantially lower",
