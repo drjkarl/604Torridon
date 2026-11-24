@@ -19,7 +19,7 @@
     "hoaAnnual": 900,
     "parcelId": "0555070101600 (Lot 61, Jones Mill Crossing Ph. 1)",
     "annualPropertyTax": "$8,548.52 at the current non-owner-occupied rate; an owner-occupant buyer can apply for SC's 4% owner-occupied assessment, which runs substantially lower",
-    "schoolDistrict": "Greenville County Schools (TODO - confirm zoned schools)"
+    "schoolDistrict": "Greenville County Schools — Rudolph Gordon School (K-8), Fountain Inn High School"
   },
   "terms": {
     "listingType": "For Sale By Owner",
@@ -27,9 +27,14 @@
     "buyerAgentCommissionReimbursed": false,
     "note": "Seller will pay standard attorney's fees at closing. Seller will not reimburse a buyer's agent/broker commission (this is a For Sale By Owner listing)."
   },
-  "description": "TODO - write (or approve a draft of) the main listing description.",
+  "description": "Two-story, 4-bedroom, 3.5-bath home built in 2018 in the Jones Mill Crossing community. 3,314 square feet on a 0.235-acre lot with a 2.5-car garage. Zoned for Rudolph Gordon School (K-8) and Fountain Inn High School. [Owner: add a few sentences here about the floor plan, finishes, and what you've liked about living here.]",
   "features": [
-    "TODO - add standout features (e.g. updated kitchen, fenced yard, community pool/amenities)"
+    "2-story, 4 bed / 3.5 bath, 3,314 sq ft",
+    "Built 2018",
+    "0.235-acre lot (Lot 61, Jones Mill Crossing)",
+    "2.5-car garage",
+    "Zoned for Rudolph Gordon School (K-8) and Fountain Inn High School",
+    "[Owner: add specific features — e.g. updated kitchen, fenced yard, screened porch, community pool/amenities]"
   ],
   "contact": {
     "preferredMethod": "Use the interest form below",
