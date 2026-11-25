@@ -5,67 +5,99 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>604 Torridon Lane, Simpsonville, SC — For Sale By Owner</title>
   <meta name="description" content="604 Torridon Lane, Simpsonville, SC 29681 — For Sale By Owner, $580,000." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap">
-      <h1>604 Torridon Lane</h1>
-      <p class="subtitle">Simpsonville, SC 29681 &middot; Jones Mill Crossing</p>
-      <div class="header-meta">
-        <span class="price" id="price">$580,000</span>
-        <span class="badge">For Sale By Owner</span>
-      </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top">604 Torridon Lane</a>
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav-links" class="nav-links">
+        <a href="#gallery">Photos</a>
+        <a href="#facts">Details</a>
+        <a href="#terms">Terms</a>
+        <a href="#interest" class="nav-cta">Get in Touch</a>
+      </nav>
     </div>
   </header>
 
-  <main class="wrap">
-    <section id="gallery" class="section">
-      <h2>Photos</h2>
-      <div id="gallery-grid" class="gallery-grid" aria-live="polite">
-        <p class="muted">Loading photos&hellip;</p>
+  <section id="top" class="hero">
+    <div class="hero-media" id="hero-media"></div>
+    <div class="hero-scrim"></div>
+    <div class="wrap hero-content">
+      <span class="badge">For Sale By Owner</span>
+      <h1>604 Torridon Lane</h1>
+      <p class="hero-subtitle">Simpsonville, SC 29681 &middot; Jones Mill Crossing</p>
+      <div class="hero-price" id="price">$580,000</div>
+      <div class="hero-actions">
+        <a href="#gallery" class="btn btn-primary">View Photos</a>
+        <a href="#interest" class="btn btn-ghost">I'm Interested</a>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="facts" class="section">
-      <h2>Property Details</h2>
-      <dl class="facts-grid" id="facts-grid"></dl>
-    </section>
+  <main id="main">
+    <div class="wrap">
+      <section id="gallery" class="section">
+        <h2>Photos</h2>
+        <p class="eyebrow" id="photo-count"></p>
+        <div id="gallery-grid" class="gallery-grid" aria-live="polite">
+          <p class="muted">Loading photos&hellip;</p>
+        </div>
+      </section>
 
-    <section id="terms" class="section callout">
-      <h2>Sale Terms</h2>
-      <ul>
-        <li>Asking price: <strong id="terms-price">$580,000</strong></li>
-        <li>Seller will pay standard attorney's fees at closing.</li>
-        <li>This is a For Sale By Owner listing — no buyer's agent/broker commission will be reimbursed.</li>
-      </ul>
-    </section>
+      <section id="facts" class="section">
+        <h2>Property Details</h2>
+        <dl class="facts-grid" id="facts-grid"></dl>
+      </section>
 
-    <section id="description" class="section">
-      <h2>About This Home</h2>
-      <p id="description-text" class="muted">Loading&hellip;</p>
-      <ul id="features-list"></ul>
-    </section>
+      <section id="terms" class="section">
+        <div class="callout">
+          <h2>Sale Terms</h2>
+          <ul class="check-list">
+            <li>Asking price: <strong id="terms-price">$580,000</strong></li>
+            <li>Seller will pay standard attorney's fees at closing.</li>
+            <li>This is a For Sale By Owner listing — no buyer's agent/broker commission will be reimbursed.</li>
+          </ul>
+        </div>
+      </section>
 
-    <section id="interest" class="section">
-      <h2>Interested? Get in touch</h2>
-      <form id="interest-form" novalidate>
-        <label for="name">Name <span class="required">*</span></label>
-        <input type="text" id="name" name="name" required maxlength="100" autocomplete="name" />
+      <section id="description" class="section">
+        <h2>About This Home</h2>
+        <p id="description-text" class="lede">Loading&hellip;</p>
+        <ul class="feature-list" id="features-list"></ul>
+      </section>
 
-        <label for="phone">Phone <span class="required">*</span></label>
-        <input type="tel" id="phone" name="phone" required maxlength="30" autocomplete="tel" />
+      <section id="interest" class="section">
+        <div class="interest-card">
+          <h2>Interested? Get in touch</h2>
+          <p class="muted">Leave your info and we'll reach out directly — no agents, no middlemen.</p>
+          <form id="interest-form" novalidate>
+            <label for="name">Name <span class="required">*</span></label>
+            <input type="text" id="name" name="name" required maxlength="100" autocomplete="name" />
 
-        <fieldset class="preference">
-          <legend>Preferred contact method <span class="required">*</span></legend>
-          <label class="radio"><input type="radio" name="preference" value="call" required /> Call</label>
-          <label class="radio"><input type="radio" name="preference" value="text" required /> Text</label>
-        </fieldset>
+            <label for="phone">Phone <span class="required">*</span></label>
+            <input type="tel" id="phone" name="phone" required maxlength="30" autocomplete="tel" />
 
-        <button type="submit" id="submit-btn">Send</button>
-        <p id="form-status" role="status" aria-live="polite"></p>
-      </form>
-    </section>
+            <fieldset class="preference">
+              <legend>Preferred contact method <span class="required">*</span></legend>
+              <label class="toggle"><input type="radio" name="preference" value="call" required /><span>Call</span></label>
+              <label class="toggle"><input type="radio" name="preference" value="text" required /><span>Text</span></label>
+            </fieldset>
+
+            <button type="submit" id="submit-btn">Send</button>
+            <p id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </div>
   </main>
 
   <footer class="site-footer">
@@ -76,7 +108,9 @@
 
   <div id="lightbox" class="lightbox hidden" aria-hidden="true">
     <button id="lightbox-close" aria-label="Close">&times;</button>
+    <button id="lightbox-prev" class="lightbox-nav lightbox-prev" aria-label="Previous photo">&#8249;</button>
     <img id="lightbox-img" src="" alt="" />
+    <button id="lightbox-next" class="lightbox-nav lightbox-next" aria-label="Next photo">&#8250;</button>
   </div>
 
   <script src="js/main.js"></script>
