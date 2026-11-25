@@ -1,7 +1,7 @@
 // Set this to the Cloudflare Worker URL after `wrangler deploy`
 // (see cloudflare-worker/README.md). Left blank, the form will show an
 // error instead of silently failing.
-const FORM_ENDPOINT = "";
+const FORM_ENDPOINT = "https://604torridon-interest-form.drjkarl.workers.dev";
 
 const money = (n) => (typeof n === "number" ? `$${n.toLocaleString("en-US")}` : n);
 
